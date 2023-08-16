@@ -74,10 +74,11 @@ body {
     margin: 0;
     align-items: center;
     gap: 1rem;
+    width: 100%;
   }
 
   .window {
-    width: 850px;
+    width: 100%;
     height: 450px;
     overflow: hidden;
     margin: 0 auto;
@@ -214,12 +215,11 @@ body {
         flex-direction: column;
         margin: 0;
         align-items: center;
-        gap: 1rem;
+        width: 750px;
+        height: 560px;
       }
     
       .window {
-        width: 850px;
-        height: 560px;
         overflow: hidden;
         margin: 0 auto;
         position: relative;
@@ -235,7 +235,6 @@ body {
     /* starting player */
     
       .player {
-        bottom: 30%;
         display: flex;
         align-items: center;
         margin: 0 auto;
