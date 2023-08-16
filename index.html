@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c8568fcb0c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script defer src="index.js"></script>
+    <title>ReNoise</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a class="logo" href="#">ReNoise</a>
+            <ul class="navbar_items">
+                <li class="item" id="bonfire">
+                    <img class="icons" src="Images/bonfire.svg" alt="bondire">
+                    <span>Bonfire</span>
+                </li>
+                <li class="item" id="forest">
+                    <img class="icons" src="Images/forest.svg" alt="forest">
+                    <span>Forest</span>
+                </li>
+                <li class="item" id="rain">
+                    <img class="icons" src="Images/rain.svg" alt="rain">
+                    <span>Rain</span>
+                </li>
+                <li class="item" id="thunder">
+                    <img class="icons" src="Images/rainandthund.svg" alt="thunder">
+                    <span>Thunder</span>
+                </li>
+                <li class="item" id="sea">
+                    <img class="icons" src="Images/sea.svg" alt="forest">
+                    <span>Sea</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <div class="window">
+                <video  height="100% width="100%">
+                    <source src="Video/Raindrops.mp4" type="video/mp4">
+                  </video>
+            </div>
+            <h2 class="title">RAIN</h2>
+                <div class="player">
+                    <button class="play-button"><i class="fa-solid fa-circle-play play"></i></button>
+                    <div class="volume">
+                        <i class="fa-solid fa-volume-off vol"></i>
+                        <input class="volume-slider" type="range" min="0" max="100">
+                        <i class="fa-solid fa-volume-high vol"></i>
+                    </div>
+                    <i class="fa-solid fa-clock timer"></i>
+                </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="sounds">
+
+        </div>
+    </footer>
+</body>
+</html>
